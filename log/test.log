@@ -1,0 +1,9 @@
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2022-10-09 13:16:53 +0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 320)
+  Rendered layout layouts/application.html.erb (Duration: 178.3ms | Allocations: 73182)
+Completed 200 OK in 181ms (Views: 179.6ms | ActiveRecord: 0.0ms | Allocations: 75579)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
